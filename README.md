@@ -1,14 +1,20 @@
-# caesars-cypher
+# Caesar's Cypher
 A command line implementation in Python of the Caesar's Cypher cryptography algorithm. Includes encryption and brute force decryption of text passed through the terminal or text files.
 
 ## Pre-requisites
 - pytest | For tests
 
 ## Installing
-
 ```git
 git clone https://github.com/rafaelsalb/caesars-cypher
 ```
+For decryption, have a text file in the following format:
+```
+word1
+word2
+word3
+```
+You can use [this](https://github.com/dwyl/english-words/blob/master/words_alpha.txt) dictionary.
 
 ## Usage
 ```
