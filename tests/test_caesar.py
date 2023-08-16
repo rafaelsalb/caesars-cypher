@@ -3,7 +3,7 @@ import sys
 
 sys.path.insert(1, os.path.join(sys.path[0], '..'))
 
-from caesar import encrypt_msg, decrypt_msg_brute, decrypt_msg_brute_with_set
+from caesar import encrypt_msg, decrypt_msg_brute
 
 
 def test_encrypting1():
