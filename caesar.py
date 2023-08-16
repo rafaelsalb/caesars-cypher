@@ -38,14 +38,11 @@ def decrypt_msg_brute(msg, dict_source, decrypt_numbers=False):
 
     dictionary.close()
     split_msg = msg.split(" ")
-
-    iter = 0
+    terms = set(terms)
 
     for word in split_msg:
-        iter += 1
         if len(word) > 3:
             for i in range(letters):
-                iter += 1
                 if encrypt_msg(word.strip(), i, decrypt_numbers) in terms:
                     correct_key = i
                     break
